@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BioBFA_Example' do
+  pod 'BioBFA', :path => '../'
+
+  target 'BioBFA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
