@@ -1,0 +1,16 @@
+PODS:
+  - BioBFA (0.1.0)
+
+DEPENDENCIES:
+  - BioBFA (from `../`)
+
+EXTERNAL SOURCES:
+  BioBFA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BioBFA: 4ec22c72f32bfcff7bf6c183b0213afbf00caf70
+
+PODFILE CHECKSUM: 31f0cd4ca231685ea767b0e37e20a406d18072dc
+
+COCOAPODS: 1.10.0.beta.2

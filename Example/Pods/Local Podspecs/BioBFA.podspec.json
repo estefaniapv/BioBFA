@@ -1,0 +1,22 @@
+{
+  "name": "BioBFA",
+  "version": "0.1.0",
+  "summary": "A short description of BioBFA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/estefaniapv/BioBFA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "estefaniapv": "estefaniapv94@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/estefaniapv/BioBFA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BioBFA/Classes/**/*"
+}
