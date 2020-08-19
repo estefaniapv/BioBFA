@@ -43,6 +43,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.dependency 'FPhiMBWidgetiOS'
-  s.dependency 'FPhiSelphIDWidgetiOS'
+  s.dependency 'FPhiMBWidgetiOS', '~> 0.0.3'
+  s.dependency 'FPhiSelphIDWidgetiOS', '~> 1.0.55'
 end
