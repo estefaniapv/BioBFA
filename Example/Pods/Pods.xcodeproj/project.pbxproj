@@ -26,6 +26,8 @@
 		B615442524EC8EF400FDA214 /* UITextField+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615442124EC8EF400FDA214 /* UITextField+Helper.swift */; };
 		B615442A24EC9D1A00FDA214 /* Framework.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B615442924EC9D1A00FDA214 /* Framework.storyboard */; };
 		B615442C24EC9D3500FDA214 /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B615442B24EC9D3500FDA214 /* SlideView.xib */; };
+		B615442E24ECDB6B00FDA214 /* FPhi_pe.interbank.bfa.pilot_iOS.lic in Resources */ = {isa = PBXBuildFile; fileRef = B615442D24ECDB6B00FDA214 /* FPhi_pe.interbank.bfa.pilot_iOS.lic */; };
+		B615443024ECDB7500FDA214 /* fphi-selphid-widget-resources-selphid-1.0.zip in Resources */ = {isa = PBXBuildFile; fileRef = B615442F24ECDB7500FDA214 /* fphi-selphid-widget-resources-selphid-1.0.zip */; };
 		C3EE4E80BAE06362626520FD719F6764 /* Pods-BioBFA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA69C6FA2541D862DC1E18F185678CF /* Pods-BioBFA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -82,6 +84,8 @@
 		B615442124EC8EF400FDA214 /* UITextField+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Helper.swift"; sourceTree = "<group>"; };
 		B615442924EC9D1A00FDA214 /* Framework.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Framework.storyboard; sourceTree = "<group>"; };
 		B615442B24EC9D3500FDA214 /* SlideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
+		B615442D24ECDB6B00FDA214 /* FPhi_pe.interbank.bfa.pilot_iOS.lic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FPhi_pe.interbank.bfa.pilot_iOS.lic; sourceTree = "<group>"; };
+		B615442F24ECDB7500FDA214 /* fphi-selphid-widget-resources-selphid-1.0.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "fphi-selphid-widget-resources-selphid-1.0.zip"; sourceTree = "<group>"; };
 		D4543ED12B6859CD7DADC50240E5C40D /* Pods-BioBFA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBFA_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D50871BA893E92205A6539A2BDC4A639 /* Pods-BioBFA_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBFA_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA19BFA2FBB44328B191A60DAB431AFE /* Pods-BioBFA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBFA_Example.modulemap"; sourceTree = "<group>"; };
@@ -176,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				B615442624EC9CF900FDA214 /* Resources */,
-				B615441924EC8ECF00FDA214 /* Helpers */,
 				B615440D24EC8E4600FDA214 /* Source */,
 				F4A42372A82AA41BA75421BA78D1D416 /* Pod */,
 				8358274B62AA8A0638D6AAF7728F94B6 /* Support Files */,
@@ -211,6 +214,7 @@
 		B615440D24EC8E4600FDA214 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B615441924EC8ECF00FDA214 /* Helpers */,
 				B615441024EC8E4F00FDA214 /* IdentificationInfoController.swift */,
 				B615440F24EC8E4F00FDA214 /* InformationController.swift */,
 				B615440E24EC8E4F00FDA214 /* StartRecognitionController.swift */,
@@ -250,6 +254,8 @@
 		B615442624EC9CF900FDA214 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B615442F24ECDB7500FDA214 /* fphi-selphid-widget-resources-selphid-1.0.zip */,
+				B615442D24ECDB6B00FDA214 /* FPhi_pe.interbank.bfa.pilot_iOS.lic */,
 				B615442824EC9D0A00FDA214 /* Views */,
 				B615442724EC9D0300FDA214 /* Storyboard */,
 			);
@@ -434,7 +440,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B615442E24ECDB6B00FDA214 /* FPhi_pe.interbank.bfa.pilot_iOS.lic in Resources */,
 				B615442C24EC9D3500FDA214 /* SlideView.xib in Resources */,
+				B615443024ECDB7500FDA214 /* fphi-selphid-widget-resources-selphid-1.0.zip in Resources */,
 				B615442A24EC9D1A00FDA214 /* Framework.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

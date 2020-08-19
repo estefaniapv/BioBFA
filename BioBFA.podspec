@@ -29,20 +29,19 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BioBFA/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
       "ios": "9.0"
   }
   
-  # s.resource_bundles = {
-  #   'BioBFA' => ['BioBFA/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'BioBFA' => ['Resources/**/*.{storyboard,xib}']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.dependency 'FPhiMBWidgetiOS', '~> 0.0.3'
-  s.dependency 'FPhiSelphIDWidgetiOS', '~> 1.0.55'
 end
