@@ -13,9 +13,19 @@
 		443CB08898D1AF29497DA465EF8E593D /* Pods-BioBFA_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6248785366725F4874E8D41067899215 /* Pods-BioBFA_Example-dummy.m */; };
 		4E001D54ED6B95B4AD97279AFCC8D0DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5039F5C207098A749DD18CB66A8CFFFF /* BioBFA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5156A434934829D8E78975420E89B5EF /* BioBFA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		514292C8B25BB072BCF21A0623DC95F4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB70AC244D31E65EBB86C3E0AE4D5148 /* ReplaceMe.swift */; };
 		873D080CEAE4D4949E2A0DA9E579B7F7 /* Pods-BioBFA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D31B52F57F8F5B6126DFED447741A31 /* Pods-BioBFA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACFD86930B0401A614137BEB07D8B566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B615441224EC8E4F00FDA214 /* StartRecognitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615440E24EC8E4F00FDA214 /* StartRecognitionController.swift */; };
+		B615441324EC8E4F00FDA214 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615440F24EC8E4F00FDA214 /* InformationController.swift */; };
+		B615441424EC8E4F00FDA214 /* IdentificationInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615441024EC8E4F00FDA214 /* IdentificationInfoController.swift */; };
+		B615441524EC8E4F00FDA214 /* UserInformationFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615441124EC8E4F00FDA214 /* UserInformationFormController.swift */; };
+		B615441D24EC8EEC00FDA214 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615441C24EC8EEC00FDA214 /* SlideView.swift */; };
+		B615442224EC8EF400FDA214 /* UIImageView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615441E24EC8EF300FDA214 /* UIImageView+Helper.swift */; };
+		B615442324EC8EF400FDA214 /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615441F24EC8EF300FDA214 /* BioView.swift */; };
+		B615442424EC8EF400FDA214 /* BioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615442024EC8EF400FDA214 /* BioButton.swift */; };
+		B615442524EC8EF400FDA214 /* UITextField+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615442124EC8EF400FDA214 /* UITextField+Helper.swift */; };
+		B615442A24EC9D1A00FDA214 /* Framework.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B615442924EC9D1A00FDA214 /* Framework.storyboard */; };
+		B615442C24EC9D3500FDA214 /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B615442B24EC9D3500FDA214 /* SlideView.xib */; };
 		C3EE4E80BAE06362626520FD719F6764 /* Pods-BioBFA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA69C6FA2541D862DC1E18F185678CF /* Pods-BioBFA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		0097DB0604D9D292496FF5E8C85133D5 /* BioBFA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BioBFA.release.xcconfig; sourceTree = "<group>"; };
-		09D568D430A0BBB212A3BC075667281E /* Pods_BioBFA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BioBFA_Example.framework; path = "Pods-BioBFA_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D568D430A0BBB212A3BC075667281E /* Pods_BioBFA_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBFA_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		131B978D8B1025261003DAF1282E0641 /* Pods-BioBFA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBFA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1D31B52F57F8F5B6126DFED447741A31 /* Pods-BioBFA_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBFA_Example-umbrella.h"; sourceTree = "<group>"; };
 		20DF2C7B9CB345AE4852DDBAE5E378E1 /* Pods-BioBFA_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBFA_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -48,26 +58,36 @@
 		5D28ED1ECF054DA3DC88A89BD24E11CA /* BioBFA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BioBFA-dummy.m"; sourceTree = "<group>"; };
 		5DA69C6FA2541D862DC1E18F185678CF /* Pods-BioBFA_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BioBFA_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6248785366725F4874E8D41067899215 /* Pods-BioBFA_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBFA_Example-dummy.m"; sourceTree = "<group>"; };
-		631D0EFC2457F55C3AF6C2D403ABF661 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		631D0EFC2457F55C3AF6C2D403ABF661 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69E5B54E06F80E1C2396DC022598F815 /* Pods-BioBFA_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBFA_Example-Info.plist"; sourceTree = "<group>"; };
 		6C2B3698FFBBD0E882D0D02CC1583318 /* Pods-BioBFA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BioBFA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E1FCB88001BD700E294F9F5CFD8082A /* BioBFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BioBFA.debug.xcconfig; sourceTree = "<group>"; };
-		7AE7CA620C734792E6FA5504749EA35D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7AE7CA620C734792E6FA5504749EA35D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7B810E57602E3703F76215E4B674EF72 /* Pods-BioBFA_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BioBFA_Example-frameworks.sh"; sourceTree = "<group>"; };
-		98B299CD5168C3C53F771EA70D91BF10 /* BioBFA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BioBFA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98B299CD5168C3C53F771EA70D91BF10 /* BioBFA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BioBFA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99624D655FC222FC966A0C9A892CD6EE /* Pods-BioBFA_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBFA_Tests.modulemap"; sourceTree = "<group>"; };
 		9CC4B26CABCC78C69D8555DEF1B73214 /* Pods-BioBFA_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBFA_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD1D1A4B0F58B5FEE61EF773981276A7 /* Pods-BioBFA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBFA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF6BAC9CEA2259FC5E822856BC6B0FD9 /* BioBFA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BioBFA.modulemap; sourceTree = "<group>"; };
-		AF9AF8DBF0240FD268347A373AC2F849 /* BioBFA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BioBFA.framework; path = BioBFA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB70AC244D31E65EBB86C3E0AE4D5148 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BioBFA/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AF9AF8DBF0240FD268347A373AC2F849 /* BioBFA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BioBFA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B615440E24EC8E4F00FDA214 /* StartRecognitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartRecognitionController.swift; sourceTree = "<group>"; };
+		B615440F24EC8E4F00FDA214 /* InformationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
+		B615441024EC8E4F00FDA214 /* IdentificationInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentificationInfoController.swift; sourceTree = "<group>"; };
+		B615441124EC8E4F00FDA214 /* UserInformationFormController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInformationFormController.swift; sourceTree = "<group>"; };
+		B615441C24EC8EEC00FDA214 /* SlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		B615441E24EC8EF300FDA214 /* UIImageView+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Helper.swift"; sourceTree = "<group>"; };
+		B615441F24EC8EF300FDA214 /* BioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
+		B615442024EC8EF400FDA214 /* BioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BioButton.swift; sourceTree = "<group>"; };
+		B615442124EC8EF400FDA214 /* UITextField+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Helper.swift"; sourceTree = "<group>"; };
+		B615442924EC9D1A00FDA214 /* Framework.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Framework.storyboard; sourceTree = "<group>"; };
+		B615442B24EC9D3500FDA214 /* SlideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
 		D4543ED12B6859CD7DADC50240E5C40D /* Pods-BioBFA_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBFA_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D50871BA893E92205A6539A2BDC4A639 /* Pods-BioBFA_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BioBFA_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DA19BFA2FBB44328B191A60DAB431AFE /* Pods-BioBFA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BioBFA_Example.modulemap"; sourceTree = "<group>"; };
 		E88B49CB47094229BA778ECBEA80DC6A /* Pods-BioBFA_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BioBFA_Tests-dummy.m"; sourceTree = "<group>"; };
 		E9F85E51AC26CD11C4F14EF8C397CCB5 /* BioBFA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BioBFA-Info.plist"; sourceTree = "<group>"; };
-		EC9A93C6B36480AEFD72D581DB074BB1 /* Pods_BioBFA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BioBFA_Tests.framework; path = "Pods-BioBFA_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9A93C6B36480AEFD72D581DB074BB1 /* Pods_BioBFA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBFA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECC5919A70AEA6AB68F3AA8F100C236D /* Pods-BioBFA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BioBFA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE13893A0CB5E337A5232DE45A1BEFBD /* BioBFA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BioBFA-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,7 +175,9 @@
 		75752FE4AEE784DDF4285A5E66238B55 /* BioBFA */ = {
 			isa = PBXGroup;
 			children = (
-				BB70AC244D31E65EBB86C3E0AE4D5148 /* ReplaceMe.swift */,
+				B615442624EC9CF900FDA214 /* Resources */,
+				B615441924EC8ECF00FDA214 /* Helpers */,
+				B615440D24EC8E4600FDA214 /* Source */,
 				F4A42372A82AA41BA75421BA78D1D416 /* Pod */,
 				8358274B62AA8A0638D6AAF7728F94B6 /* Support Files */,
 			);
@@ -184,6 +206,70 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BioBFA";
+			sourceTree = "<group>";
+		};
+		B615440D24EC8E4600FDA214 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B615441024EC8E4F00FDA214 /* IdentificationInfoController.swift */,
+				B615440F24EC8E4F00FDA214 /* InformationController.swift */,
+				B615440E24EC8E4F00FDA214 /* StartRecognitionController.swift */,
+				B615441124EC8E4F00FDA214 /* UserInformationFormController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B615441924EC8ECF00FDA214 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B615441B24EC8EE500FDA214 /* Views */,
+				B615441A24EC8EE000FDA214 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B615441A24EC8EE000FDA214 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B615442024EC8EF400FDA214 /* BioButton.swift */,
+				B615441F24EC8EF300FDA214 /* BioView.swift */,
+				B615441E24EC8EF300FDA214 /* UIImageView+Helper.swift */,
+				B615442124EC8EF400FDA214 /* UITextField+Helper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B615441B24EC8EE500FDA214 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B615441C24EC8EEC00FDA214 /* SlideView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B615442624EC9CF900FDA214 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B615442824EC9D0A00FDA214 /* Views */,
+				B615442724EC9D0300FDA214 /* Storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B615442724EC9D0300FDA214 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B615442924EC9D1A00FDA214 /* Framework.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B615442824EC9D0A00FDA214 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B615442B24EC9D3500FDA214 /* SlideView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -317,6 +403,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					31F1E46E39B870EF273D27B12D83EFE0 = {
+						LastSwiftMigration = 1160;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,6 +434,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B615442C24EC9D3500FDA214 /* SlideView.xib in Resources */,
+				B615442A24EC9D1A00FDA214 /* Framework.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,8 +476,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B615441D24EC8EEC00FDA214 /* SlideView.swift in Sources */,
+				B615442224EC8EF400FDA214 /* UIImageView+Helper.swift in Sources */,
+				B615441324EC8E4F00FDA214 /* InformationController.swift in Sources */,
+				B615441224EC8E4F00FDA214 /* StartRecognitionController.swift in Sources */,
 				2F84A977CE1CF712EE192DEBA50C276A /* BioBFA-dummy.m in Sources */,
-				514292C8B25BB072BCF21A0623DC95F4 /* ReplaceMe.swift in Sources */,
+				B615442524EC8EF400FDA214 /* UITextField+Helper.swift in Sources */,
+				B615442324EC8EF400FDA214 /* BioView.swift in Sources */,
+				B615441524EC8E4F00FDA214 /* UserInformationFormController.swift in Sources */,
+				B615442424EC8EF400FDA214 /* BioButton.swift in Sources */,
+				B615441424EC8E4F00FDA214 /* IdentificationInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,8 +594,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -504,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0097DB0604D9D292496FF5E8C85133D5 /* BioBFA.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -524,7 +625,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -702,6 +803,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E1FCB88001BD700E294F9F5CFD8082A /* BioBFA.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -722,7 +824,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
